@@ -1,0 +1,15 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    int i, numero, soma =0;
+    for (i =1; i <= 5; i++){
+        printf("Digite um numero");
+        scanf("%d", &numero);
+        if(numero >0){
+            soma = soma + numero;
+        }
+    }
+    printf("Soma: %d\n", soma);
+    return 0;
+}
